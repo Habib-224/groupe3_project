@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "site_palons_code_grp3",
+      "path": "../.."
+    },
+    {
+      "name": "Conditiond'Utilisations",
+      "path": "D:/ParlonsCode/Conditiond'Utilisations"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "site_palons_code_grp3",
+    "liveServer.settings.port": 5501
+  }
+}

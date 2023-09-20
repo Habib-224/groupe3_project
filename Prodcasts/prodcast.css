@@ -1,0 +1,131 @@
+
+:root {
+    --text-color-podcast : #28384D;
+}
+body {
+    font-family: Gilroy, system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #F9F9F9;
+}
+
+
+
+/* Le heeader */
+
+.header-nav {
+    margin: 0 10%;
+    display: flex;
+}
+#navbarCollapse {
+    margin-left: 46%;
+}
+
+/* Fin du headeer */
+
+hr {
+    border: 1px solid #e2e2e2;
+}
+.container {
+    margin: 130px auto;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.prodcast-player {
+    box-sizing: border-box;
+    background-color: #F9F9F9;
+    border: 1px solid #e2e2e2;
+    border-radius: 06px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p-titre {
+    color: var(--text-color-podcast);
+    font-size: 2.5em;
+    font-weight: 400;
+}
+.prodcast-entete p {
+    color: #35353593;
+    font-size: 1.15em;
+}
+.prodcast-titre {
+    margin-bottom: 5px;
+}
+.prodcast-titre h2 {
+    font-weight: 400;
+    font-size: 2.1em;
+    color: var(--text-color-podcast);
+}
+
+.prodcast-component {
+    padding: 10px;
+    margin-top: 50px;
+}
+.prodcats-avatars {
+    height: 160px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prodcast-content:last-child {
+    margin-left: 0px;
+}
+
+.icon-play {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(251, 64, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-play .fa-play {
+    color: white;
+    font-size: 20px;
+}
+.prodcat-audio {
+    margin-top: 30px;
+}
+.prodcat-audio audio{
+    height: 50px;
+    background-blend-mode: multiply;
+    width: 100%;
+}
+.desc-manager {
+    margin-left: 6px;
+}
+.desc-manager span {
+    font-size: 0.8em;
+    color: #35353593;
+    text-decoration: underline;
+}
+.desc-manager h2 {
+    font-size: 1.1em;
+    color: #35353593;
+}
+.items-share span {
+    font-size: 0.65em;
+    font-weight: 500;
+    cursor: pointer;
+    margin: -6px 0;
+}
+.items-share span:last-child {
+    background-color: white;
+    padding: 4px 6px;
+    color: black;
+}
+.items-share span:first-child {
+    text-transform: uppercase;
+    color: rgb(73, 73, 73);
+}
+.items-share span:first-child:hover {
+    color: rgb(251, 64, 30);
+}
+.podcast-vues {
+    font-size: 0.7em;
+    color: #28384D;
+    margin: 6px 6px;
+}
