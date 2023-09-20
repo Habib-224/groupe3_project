@@ -1,0 +1,101 @@
+.textimage {
+    margin-top: 100px;
+    display: flex
+}
+.textimage1{
+    margin-top: 120px;
+    display: flex;
+    
+}
+#image{
+    height: 630px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+.image1{
+    margin-bottom: 40px;
+}
+.text{
+    margin-left: 100px;
+}
+.text1{
+    margin-left:100px ;
+}
+.boutton{
+    background-color: #36858E;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid #36858E;
+    padding: 10px;
+
+}
+.badge{
+    background-color: #CBB956;
+    color: white;
+}
+.boutton1{
+    background-color: #32438A;
+    color: white;
+    border: 1px solid #32438A;
+    padding: 7px;
+    border-radius: 7px;
+
+}
+/* .java{
+    display: flex;
+} */
+
+.javaimage{
+    
+    margin-left: 50px;
+    margin-top: 90px;
+    /* display: flex; */
+}
+.javatext{
+    margin-right: -200px;
+    margin-top: 90px;
+    /* display: flex; */
+    
+}
+.trait{
+    margin-top: -90px;
+    width: 90%;
+    margin-left: 70px;
+}
+.trait1{
+    margin-top: -100px;
+    width: 90%;
+    margin-left: 70px;
+}
+
+.titre{
+    margin-top: -30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.traittitre{
+    width: 90%;
+    margin-left: 70px;
+}
+
+/* responsive */
+@media only screen and (max-width:992px) {
+    /* body {
+        background-color: rebeccapurple;
+    } */
+
+    .textimage{
+        display: inline;
+    }
+    .textimage1 {
+             display: inline;
+         }
+    .javatext{
+        display:inline ;
+    }
+    
+
+    
+}
+

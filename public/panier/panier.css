@@ -1,0 +1,81 @@
+h1{
+    color: #28384D;
+    text-align: center;
+    margin-top: 60px;
+}
+.trait{
+    width: 80%;
+    margin-left: 90px;
+    
+}
+h6{
+    color: white;
+}
+#entete{
+    background-color: #3F55AF;
+}
+#soustable{
+    border: 1px solid rgb(239, 237, 237);
+
+}
+#photojava{
+    width: 10%;
+    height: 8%;
+}
+a{
+    text-decoration: none;
+}
+#entete1{
+    background-color:#D9EDF7;
+    /* color: #31708F; */
+}
+p{
+    color: #31708F;
+}
+#ds{
+    color: #3F5F84;
+}
+.access{
+    margin-left: 20px;
+    color: #909A98;
+}
+.boutton{
+    margin-left: 330px;
+}
+#contMag{
+    background-color: #6B9DBB;
+    color: white;
+}
+#payMain{
+    background-color: #36858E;
+    color: white;
+}
+::placeholder{
+    color:#3F55AF ;
+    font-size: bold;
+    margin-right: 60px;
+    font-size: x-large;
+    opacity: 2;
+
+}
+h4{
+    margin-left: 160px;
+}
+#popup{
+    width: 25%;
+    height: 20%;
+    margin-left: 190px;
+    margin-top: 40px;
+
+}
+.modal-body h6{
+    color: #909A98;
+    text-align: center;
+}
+ #btnannuler{
+    background-color:#909A98 ;
+    color: white;
+}
+.modal-footer{
+    margin-right: 95px;
+}
