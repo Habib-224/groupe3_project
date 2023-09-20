@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Temoignage p,h3{
+    text-align: center;
+}
+
+
+.listTemoignage img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.listTemoignage h4{
+    text-align: center;
+    padding: 10px;
+}
+
+.listTemoignage p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightblue;
+    }
+}

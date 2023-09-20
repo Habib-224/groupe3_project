@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.A_propos p,h3 {
+    text-align: center;
+}
+
+.listTemoignage{
+    border: 1px solid #3F55AF;
+}
+.listTemoignage img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.listTemoignage h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.listTemoignage p {
+    text-align: center;
+}
+
+h5{
+    background-color: #3F55AF;
+    color: white;
+    width: 100%;
+    /* margin-left: -15px; */
+}
+
+.teachers{
+    color: #3F55AF;
+
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.NAV{
+   color: white;
+}
+
+.navbar-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-between
+}
+
+.navbar-nav ul li{
+    
+}

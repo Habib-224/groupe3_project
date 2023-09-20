@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.A_propos p,
+h3 {
+    text-align: center;
+}
+
+
+.teachers {
+    color: #3F55AF;
+
+}
+
+.card-header{
+    background-color: #3F55AF;
+}
+
+.section1{
+    background-color: #D9EDF7;
+}
+
+.form-group textarea {
+    height: 200px;
+}
+
+.button1 button {
+    width: 100%;
+    background-color: #36858E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+}
+
+.captcha {
+    width: 270px;
+    height: 60px;
+    border: 1px solid darkgrey;
+}
+
+.form-groupText{
+    border: 1px solid darkgray;
+    padding: 2px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.card-body ul li a{
+    text-decoration: none;
+}
+
+ul {
+    margin-left: -30px;
+}
+ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+ul li i{
+    font-size: 25px;
+}
+
+.red{
+    color: red;
+}
+
+.point{
+    margin-left: -10px;
+    color: red;
+}
+
