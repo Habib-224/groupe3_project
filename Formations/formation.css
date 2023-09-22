@@ -1,0 +1,176 @@
+.contenu-general-formation {
+    width: 80%;
+    height: 180vh;
+    margin: auto;
+}
+
+.contenu-general-formation h2 {
+    text-align: center;
+    margin: 40px;
+}
+
+.formation-left {
+    border: 1px solid #3F55AF;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 0;    
+    min-width: 600px;
+}
+.titre-formateur{
+    margin: 0 0 20px 14px;
+    border: 1px solid #D9EDF7;
+    min-width: 200px;
+}
+
+.courses-liste a {
+    margin-left: 8px;
+}
+/* .courses-liste a:first-child {
+    padding-left: 21px;
+} */
+.titre-formateur:first-child {
+    border-radius: 5px;
+    border: 1px solid #3F55AF;
+    border-radius: 5px;
+}
+.titre-formation h4, .titre-formateur h4{
+    background-color: #3F55AF;
+    padding: 8px;
+    color: white;
+    font-size: 1.1em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.formation h2:first-child {
+    color: #28384D;
+    font-weight: 400;
+    font-size: 2.4em;
+    margin-bottom: 0px;
+}
+.formation hr {
+    margin-bottom: 30px;
+    border-color: #909090;
+}
+.titre-formation p,
+.titre-formateur p {
+    padding: 8px;
+    color: #28384D;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    
+}
+.img-honore {
+    width: 100px;
+    height: 96px;
+    border-radius: 4px;
+}
+.img-honore img{
+    border-radius: 4px;
+}
+.video-formation {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.video-formation video{
+    width: 96%;
+    height: 96%;
+}
+
+.foonter-content-item {
+    width: 96%;
+    margin: 0 2%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #E9E9E9;
+    background-color: #F5F5F5;
+    border-radius: 1px;
+    color: #777777;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.footer-form h3 {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.footer-content-i {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.i-element {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #777777;
+}
+.footer-content-i i {
+    color: white;
+}
+.footer-content-i h5 {
+    font-size: 1em;
+    font-weight: 400;
+}
+.add-card-formation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.add-card-formation button{
+    background-color: #32438A;
+    border: 0px;
+    text-transform: uppercase;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.sect-form h4 {
+    background-color: #D9EDF7;
+    color: #31708F;
+}
+
+
+/* Témoignage partie */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.temoignage-general {
+    margin-top: -120px;
+}
+
+.Temoignage p,
+h3 {
+    text-align: center;
+}
+
+
+.listTemoignage img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: ²0 auto;
+}
+
+.listTemoignage h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.listTemoignage p {
+    text-align: center;
+}
