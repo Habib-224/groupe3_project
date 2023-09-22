@@ -8,70 +8,64 @@
     <title>Connexion</title>
 </head>
 <body>
-
-
-    
-
     <form class="needs-validation" novalidate>
-	
-	<!-- class="row g-3 mb-3" -->
-    <div class="forme">
-	<div class="image col-12">
-        	<h1><img src="logo-red.png" class="logo-red">Parlons Code</h1>
-	</div>
-	<div class="text col-12">
-        	<p class="pt ">Content de vous revoir !</p>
-        	<p class="">Connectez vous afin d'acceder a vos cours</p>
-	</div>
-    <div class="container ">
-        <div class="col-md-12 ">
+        <div class="forme">
+            <div class="image col-12">
+                    <h1><img src="logo-red.png" class="logo-red">Parlons Code</h1>
+            </div>
+            <div class="text col-12">
+                    <p class="pt ">Content de vous revoir !</p>
+                    <p class="">Connectez vous afin d'acceder a vos cours</p>
+            </div>
+        </div>
+        <div class="container1 ">
+            <div class="col">
+                <div class="col-md-6 ">
+                    
+                    <input type="email" class="form-control  mb-3 shadow-sm   bg-body rounded" id="validationServer03"
+                        required placeholder="Adresse electronique">
+                    <div class="invalid-feedback">
+                            Vos identifiants de connexion sont incorrecte.
+                    </div>
+                </div>
             
-            <input type="email" class="form-control  mb-3 shadow-sm   bg-body rounded" id="validationServer03"
-                required placeholder="Adresse electronique">
-            <div class="invalid-feedback">
-                    Vos identifiants de connexion sont incorrecte.
+                <div class="col-md-6">
+                    <input type="password" class="form-control mb-3  shadow-sm   bg-body rounded" id="validationServer02"  required placeholder="Mot de passe">          
+                    <div class="invalid-feedback">
+                        Entrer un mot de passe valide!
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="form-check">
+                        <input class="form-check-input  mb-3" type="checkbox"  id="invalidCheck3">
+                        
+                        <label class="form-check-label mb-3 " >
+                            Garder ma session active
+                        </label>
+                    </div>
+                </div>
             </div>
-	        <!-- <div class="valid-feedback">Ok !</div> -->
-            
-		
+            <div>
+                <button class=" mb-3  " type="submit" id="boutton">Se connecter</button>
+            </div>
+        </div>
         
-        <div class="col-md-12">
-            <input type="password" class="form-control mb-3  shadow-sm   bg-body rounded" id="validationServer02"  required placeholder="Mot de passe">
-	    
-                         
-            <div class="invalid-feedback">
-                Entrer un mot de passe valide!
-            </div>
-            <!-- <div class="valid-feedback">Ok !</div> -->
-        </div>
-        
-        <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input  mb-3" type="checkbox"  id="invalidCheck3">
-                   
-                <label class="form-check-label mb-3 " >
-                    Garder ma session active
-                </label>
-            </div>
-        </div>
-        </div>
-        <div class="col-md-12">
-            <button class=" mb-3 col-md-12 " type="submit" id="boutton">Se  connecter</button>
-        </div>
+       
     </form>
-    <div class="motpass w-100"><a href="">Mot de passe oublie?</a></div>
-    <!-- <hr > -->
+   
+
     <div class="text1 shadow-sm p-3 mb-5 bg-body rounded">
+        <a href="">Mot de passe oublie?</a>
         <p>🧐<strong> Comment créer un compte?</strong> Vous n'avez pas besoin! Un compte <br>
              sera automatiquement créé pour
             vous après l'achat d'un cours.
         </p>
     </div>
-    </div>
 
 
 	
-	<script>
+	<!-- <script>
            /*La fonction principale de ce script est d'empêcher l'envoi du formulaire si un champ a été mal rempli
             *et d'appliquer les styles de validation aux différents éléments de formulaire*/
            (function() {
@@ -89,6 +83,6 @@
                });
              }, false);
            })();
-         </script>
+         </script> -->
 </body>
 </html>
