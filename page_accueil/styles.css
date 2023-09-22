@@ -1,0 +1,230 @@
+.header-nav {
+    width: 90%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+}
+.bg {
+    background-color: #222222;
+}
+#main {
+    position: relative;
+    top: 56px;
+}
+.banner {
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../images/slide-3.png);
+    height: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    place-content: center;
+    color: white;
+    text-align: center;
+}
+.banner span {
+    font-size: 4em;
+}
+.banner button {
+    padding: 12px;
+    background-color: #3F55AF;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.row {
+    /* height: 640px; */
+    margin-bottom: 60px;
+}
+
+.container-box {
+    border: 1px solid #DDDDDD;
+    gap: 10px;
+    width: 96%;
+    min-width: 400px;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 575px) {
+    .row-all {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 40%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1220px) {
+    .row-all {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20%;
+    }
+}
+
+.container-box .icon-box i {
+    font-size: 140px;
+}
+
+.container-box .titre-box a {
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+.container-box .titre-box a:hover {
+    text-decoration: underline;
+}
+
+.container-box .texte-box {
+    color: #77778D;
+    font-weight: 400;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+.container-box .texte-box .dispo-prema {
+    background-color: #44A8B3;
+    padding: 1px 3px;
+    color: white;
+    border-radius: 5px;
+}
+
+.container-box .valide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-box .valide button {
+    width: 86%;
+    background-color: #32438A;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.col-4 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Stylisation du footer */
+
+#section-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 10%;
+    background-color: #F5F8FA;
+    color: #28384D;
+}
+
+#section-footer .footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+@media screen and (max-width: 575px) {
+    #section-footer .footer-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 768x) {
+    #section-footer .footer-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+#section-footer .footer-content .element-ms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+#section-footer .footer-content .element-ms div i {
+    color: white;
+}
+
+#section-footer .footer-content .element-ms div {
+    width: 50px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #636B6F;
+    background-color: #636B6F;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    cursor: pointer;
+}
+
+#section-footer .footer-element h4 {
+    font-size: 1.6em;
+    margin-top: 10px;
+    color: #28384D;
+}
+
+#section-footer .footer-element .p-one-change {
+    /* margin-top: -30px; */
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #28384D;
+}
+
+#section-footer .footer-element ul {
+    list-style-type: none;
+}
+
+#section-footer .footer-element ul li {
+    margin: 8px 0;
+    margin-left: -30px;
+}
+
+#section-footer .footer-element ul a {
+    color: #A5ACBA;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#section-footer .footer-copyright {
+    font-weight: 300;
+    font-size: 1.1em;
+    color: #A5ACBE;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#section-footer .footer-copyright span {
+    font-weight: 700;
+    color: #28384D;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: self-end;
+}
+
+.form .left p {
+    font-size: 1.2em;
+}
+
+.form input {
+    border: 1px solid #E5E5E5;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+.form button {
+    border: 1px solid transparent;
+    font-size: 1.1em;
+    color: white;
+    background-color: #32438A;
+    padding: 10px;
+    border-radius: 10px;
+}
