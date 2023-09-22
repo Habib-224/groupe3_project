@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Menu ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+    justify-content: end;
+    gap: 20px;
+    margin-right: 80px;
+
+}
+
+
+.Menu {
+    background-color: #222222;
+    height: 50px;
+}
+
+.Menu ul li {
+    padding-top: 12px;
+    font-size: 16px;
+
+
+}
+
+.Menu ul li:first-child {
+    position: absolute;
+    left: 0;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.Menu ul li a {
+    text-decoration: none;
+    color: white;
+    color: darkgray;
+}
+
+.imagePrincipale img {
+    width: 100%;
+    height: 300px;
+
+}
+
+.section_footer {
+    display: grid;
+    grid-template-columns: 40% 23% 23%;
+    justify-content: center;
+    margin-left: 30px;
+    padding: 25px;
+
+}
+
+footer {
+    background-color: #F5F8FA;
+    height: 370px;
+}
+
+.footer1 {
+    line-height: 10px;
+}
+
+.reseaux ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.reseaux ul li {
+   background-color: #222222;
+    width: 30px;
+    height: 30px;
+    border-radius:20%;
+    border: 1px solid darkgray;
+}
+
+.reseaux ul li i {
+    padding: 8px;
+    color: white;
+}
+
+.icone{
+    display: flex;
+    margin-left: 140px;
+    padding-top: 20px;
+}
+
+.newsletters{
+    margin-left: 140px;
+    padding-top: 20px;
+}
+
+.newsletters input{
+    width: 500px;
+}
+
+.newsletters button{
+    width: 200px;
+    height: 34px;
+    background-color: #32438A;
+    border: none;
+    color: white;
+}
+.newsletters input{
+    height: 30px;
+}
+
+@media screen and (max-width: 850px) {
+   .newsletters input{
+    width: 200px;
+   }
+   .icone, .newsletters{
+        margin-left: 50px;
+   }
+}
+
+@media screen and (max-width: 850px) {
+    .Menu ul li:first-child{
+        position: absolute;
+       margin-left: 10px;
+    }
+
+    .Menu ul li{
+        font-size: 15px;
+    }
+}
+
+hr{
+    border: 1px solid darkgray;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer1 p a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+/* temoignage */
+
+.Temoignage p,
+h3 {
+    text-align: center;
+}
+
+
+.listTemoignage img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.listTemoignage h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.Temoignage p {
+    text-align: center;
+    font-size: 25px;
+}
+
+/*  */
+.row {
+    height: 640px;
+    margin-bottom: 60px;
+}
+
+.container-box {
+    border: 1px solid #DDDDDD;
+    gap: 3px;
+    width: 100%;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-box .icon-box i {
+    font-size: 140px;
+}
+
+.container-box .titre-box a {
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+.container-box .titre-box a:hover {
+    text-decoration: underline;
+}
+
+.container-box .texte-box {
+    color: #77778D;
+    font-weight: 400;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+.container-box .texte-box .dispo-prema {
+    background-color: #44A8B3;
+    padding: 1px 3px;
+    color: white;
+    border-radius: 5px;
+}
+
+.container-box .valide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-box .valide button {
+    width: 86%;
+    background-color: #32438A;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.col-4 {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    /* margin-top: -250px; */
+}
+
+.voirPlus{
+    margin-top: -350px;
+    margin-bottom: 50px;
+}
+
+.voirPlus button{
+    display: grid;
+    /* justify-content: center; */
+    margin: 0 auto;
+    background-color: white;
+    height: 40px;
+    width: 450px;
+    border: 1px solid #32438A;
+    color: #32438A;
+    font-size: 20px;
+    
+}
+
+.voirPlus1{
+   /* margin: 0 auto; */
+   position: absolute;
+   margin-top: 120px;
+   margin-left: 250px;
+}
+
+.voirPlus1 p{
+    color: white;
+    text-align: center;
+  
+}
+
+.voirPlus1 h1{
+    color: white;
+}
+
